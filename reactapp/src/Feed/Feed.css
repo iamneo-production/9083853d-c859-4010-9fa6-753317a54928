@@ -1,0 +1,96 @@
+.cardContainer {
+  max-width: 345px;
+}
+
+.cardMedia {
+  height: 194px;
+}
+
+.cardContent {
+  padding: 16px;
+}
+
+.cardActions {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.cardMedia
+{
+  object-fit: cover;
+}
+
+.cardMedia {
+  object-fit: cover;
+  height: 300px;
+}
+
+.favoriteIcon {
+  color: red;
+}
+.css-hyum1k-MuiToolbar-root {
+  min-height: 64px;
+  background-color: rgb(45, 43, 43);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 66px); 
+}
+
+.appbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.whole {
+  margin-top: 64px; 
+}
+
+.name
+{
+  display: flex;
+  padding-left: 92%;
+}
+
+.a{
+  font-size: x-large;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:1000;
+}
+
+.likes
+{
+  /* margin-left: 1%;
+  padding-right: 85%; */
+  text-align: left;
+  margin-right: "50%";
+}
+
+.comm{
+  /* margin-left: "50%"; */
+  margin-left: 27%;
+}
+
+.qwe
+{
+  display: flex;
+  /* justify-content: space-between; */
+  margin-left: "1%";
+}
+
+
+
+
+

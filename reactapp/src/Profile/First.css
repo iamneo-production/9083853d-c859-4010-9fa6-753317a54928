@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("connect-logo.png");
+  background-size: cover;
+  background-position: center;
+  background-color: #333;
+}
+
+.out {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #a5a1a1;
+  padding: 2rem;
+  border-radius: 10%;
+  animation: fadeIn 3s ease-in-out forwards;
+
+}
+
+.head {
+  margin-bottom: 2rem;
+}
+
+.head h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.log,
+.sig {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.buttonLink {
+  text-decoration: none;
+}
+
+.button {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  animation: fadeIn 5s ease-in-out forwards;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.head h2 {
+  color: #333;
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

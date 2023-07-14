@@ -1,0 +1,268 @@
+.cardContainer {
+  max-width: 345px;
+}
+
+.cardMedia {
+  height: 194px;
+}
+
+.cardContent {
+  padding: 16px;
+}
+
+.cardActions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cardMedia {
+  object-fit: cover;
+  height: 300px;
+}
+
+.favoriteIcon {
+  color: red;
+}
+
+.css-hyum1k-MuiToolbar-root {
+  min-height: 64px;
+  background-color: rgb(45, 43, 43);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 66px);
+}
+
+.appbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.whole {
+  margin-top: 64px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 80%;
+}
+
+.com {
+  margin: 5px;
+  padding: 2%;
+}
+
+.full {
+  display: flex;
+  height: 83vh;
+  border-radius: 5%;
+  overflow: hidden; /* Prevent scrolling */
+}
+
+.sidebar {
+  flex: 1;
+  background-color: #f1f1f1;
+}
+
+.sidebar .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #dfbbbb;
+}
+
+.sidebar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  padding-right: 30%;
+  margin-left: 25px;
+}
+
+.sidebar .user {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background-color: antiquewhite;
+  object-fit: cover;
+}
+
+.sidebar .user span {
+  font-size: 16px;
+}
+
+.sidebar .search {
+  padding-top: 5px;
+  border-bottom: 1px;
+}
+
+.sidebar .img1 {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sidebar .userChat {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.sidebar .userChat:hover {
+  background-color: #dfbbbb;
+}
+
+.sidebar .userChat .userChatInfo .span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.sidebar .userChat .userChatInfo .p {
+  font-size: 14px;
+  color: rgb(92, 89, 89);
+}
+
+.chats {
+  flex: 3;
+  background-color: #e6e0e0;
+  padding-bottom: 10px;
+}
+
+.chats .chatInfo {
+  height: 70px;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 3%;
+}
+
+.chats .chatIcons {
+  padding-right: 5%;
+  gap: 25px;
+  display: flex;
+  cursor: pointer;
+}
+
+.chats .sp {
+  padding-left: 10%;
+}
+
+.chats .per,
+.chats .f {
+  cursor: pointer;
+}
+
+.chats .messages {
+  background-color: aliceblue;
+}
+
+.chats .messages .message-owner {
+  display: flex;
+  gap: 20px;
+}
+
+.chats .input {
+  height: 50px;
+  background-color: rgb(245, 245, 245);
+  padding: 10px;
+  padding-right: 50px;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chats .send {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 2%;
+}
+
+.chats .send button {
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-right: 5%;
+  cursor: pointer;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.mes {
+  height: 500px;
+  background-color: aliceblue;
+  overflow: scroll;
+}
+
+/* .message
+{
+  overflow: scroll;
+} */
+.message-owner{
+
+  
+  .messageContent
+  {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    .p{
+      background-color: wheat;
+      padding: 10px 20px;
+      border-radius: 0px 10px 10px 10px;
+     }
+  
+  }
+  &.message-owner
+  {
+    flex-direction: row-reverse;
+    padding-right: 15px;
+  }
+  
+
+}
