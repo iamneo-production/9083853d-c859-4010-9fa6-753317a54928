@@ -1,0 +1,165 @@
+/* Signup.css */
+
+.Top {
+    display: flex;
+  }
+  
+  .Left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  /* img{
+    height: 50px;
+    width: 50px;
+  } */
+  
+  .Left img {
+    height: 75%;
+    width: 75%;
+  }
+  
+  .right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .outer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .inner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .userName,
+  .email,
+  .password,
+  .con-password,
+  .dob {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: #0077ff;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  #login-button {
+    background-color: #0077ff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #login-button:hover {
+    background-color: #0066cc;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .Top {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .Left {
+      margin-bottom: 20px;
+    }
+    
+    .outer-box {
+      padding: 20px;
+    }
+    
+    .inner-box {
+      padding: 20px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      font-size: 14px;
+    }
+    
+    .header {
+      font-size: 20px;
+    }
+    
+    #login-button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+
+  .google-logo {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  .userName {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 8px; /* Adjust the margin as needed */
+  }
+  .email{
+    display: flex;
+  align-items: center;
+  }
+
+  .password
+  {
+    display: flex;
+  align-items: center;
+  }
+
+  .con-password
+  {
+    display: flex;
+  align-items: center;
+  }
+  
