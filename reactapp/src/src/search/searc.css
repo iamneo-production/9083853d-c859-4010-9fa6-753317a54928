@@ -1,0 +1,32 @@
+.cl {
+  background-color: rgb(218, 190, 136);
+  margin-left: 100px;
+    margin-right: 80px;
+    margin-top: 40px;
+    height: 400px;
+    width: 730px;
+  .sch {
+    /* margin-top: 30px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+  }
+  .po
+  {
+    margin-right: 15px;
+  }
+
+  .bn
+  {
+    margin-left: 40px;
+  }
+}
+
+.fg {
+  width: 550px;
+}
+/* .zsxd
+{
+  background-image: url('https://www.fonewalls.com/wp-content/uploads/2022/01/White-Black-Wall-4K-Phone-Wallpaper-300x533.jpg');
+  
+} */

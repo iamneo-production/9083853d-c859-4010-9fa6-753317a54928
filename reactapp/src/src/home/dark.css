@@ -1,0 +1,10 @@
+:root {
+    --color-bg: #000000; /* background color */
+    --color-fg: #ffffff; /* foreground color */
+  }
+  
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+  }
+  

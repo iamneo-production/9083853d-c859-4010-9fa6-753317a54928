@@ -1,0 +1,45 @@
+.inp {
+    margin-bottom: 20px;
+    /* background-color: blanchedalmond; */
+    width: 50%;
+    background-color: whitesmoke;
+  }
+  
+  .file {
+    display: flex;
+    align-items: center;
+  }
+  
+  .file input[type="file"] {
+    margin-right: 10px;
+  }
+  
+  .file button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .file button:hover {
+    background-color: #45a049;
+  }
+
+  .txt
+  {
+    background-color: white;
+    /* box-shadow: 2px; */
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+  
